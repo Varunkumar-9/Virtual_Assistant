@@ -24,7 +24,7 @@ mic = sr.Microphone()
 # Creating a window
 search = Tk()
 # Set the title of the window
-search.title("Virtual Assistant by Abhijith")
+search.title("Virtual Assistant")
 # Formatting the search window for better look
 search.config(bg = '#282828', highlightbackground = "black", highlightthickness = 5)
 # Initialising the Text-To-Speech
@@ -59,7 +59,7 @@ def searchquery(question):
         exit()
     # This is a specific question designed by the developer
     if(("who made you" in lq) or ("who created you" in lq)):
-        audio.say("My creator is the one and only great and the greatest GOD, Abhijith. I am so grateful for him.")
+        audio.say("My creator is the one and only great and the greatest GOD. I am so grateful for him.")
         audio.runAndWait()
         return
     
