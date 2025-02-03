@@ -20,7 +20,7 @@ A Python-based virtual assistant that uses speech recognition, text-to-speech, a
 Before running the project, ensure you have the following installed:
 
 1. **Python: Download and install Python from [python.org](https://www.python.org/).
-2. **Required Python Libraries**:
+2. **Required Python Libraries/dependencies**:
    - `tkinter` (usually comes pre-installed with Python)
    - `pyttsx3`
    - `speech_recognition`
